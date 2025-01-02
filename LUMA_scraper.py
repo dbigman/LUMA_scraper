@@ -117,11 +117,11 @@ if __name__ == "__main__":
     extracted_data = extract_json_from_js(js_save_path)
     
     if extracted_data:
-        # print(f"Type of extracted_data: {type(extracted_data)}")
-        # print(f"First item in extracted_data: {extracted_data[0]}")
+        # ic(f"Type of extracted_data: {type(extracted_data)}")
+        # ic(f"First item in extracted_data: {extracted_data[0]}")
         extracted_data = add_timestamp(extracted_data)
-        # print(f"Data after adding timestamp: {extracted_data[0]}")
-        # print("Calling append_to_json5 with new data.")
+        # ic(f"Data after adding timestamp: {extracted_data[0]}")
+        # ic("Calling append_to_json5 with new data.")
         append_to_json5(extracted_data, json5_output_path)
     
     count, date, time = timestamp_count(json5_output_path)
