@@ -1,6 +1,6 @@
 # LUMA Scraper
 
-This Python script fetches and processes energy generation data from Puerto Rico's LUMA Energy system.
+This Python script gets and processes energy generation data from Puerto Rico's LUMA Energy system.
 
 ## Data Sources
 
@@ -41,7 +41,7 @@ The script retrieves data from:
 - Python 3.x
 - `requests` library (install with `pip install requests`)
 
-## Example Data
+## Example
 
 Processed JSON5 entries include:
 ```json5
